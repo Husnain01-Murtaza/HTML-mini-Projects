@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- INFO NOT TO SHOW BUT IMPORTANT -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>This is practice page</title>
+</head>
+
+<body>
+  <a href="#bottom">GO TO BOTTOM</a>
+  <h4 id="top">THIS IS TOP OF PAGE</h4>
+  <input type="search" placeholder="type here"/>
+  <header>
+    <main>
+      <!-- <DIV> DO NOTHING BUT CAN HOLD OTHER TAGS -->
+      <!-- <SECTION> IS USED TO ORGANIZE CONTENT AND MAKE IT MORE STRUCTURED INSIDE MAIN -->
+      <!-- <ASIDE> IS FOR ADDS NOT A PART OF MAIN -->
+      <!-- <ARTICLE> IS USED TO ORGANIZE CONTENT AND MAKE IT MORE STRUCTURED INSIDE MAIN -->
+      <!--<SPAN> IS INLINE TAG TAKE SPACE ACCORDING TO WORD LENGHT NOT WHOLE LINE -->
+      <p>
+      <pre><a href="Education.html" target="_blank">MY EDUCATION      </a><a href="Projects.html" target="_blank">      MY PROJECTS</a></pre>
+      </p>
+  </header>
+  <button onclick="sayHello()">CLICK ME</button>
+  <br>
+  <img src="HU.png" alt="ITU LOGO" height="100" width="200" />
+  </main>
+  <BR>
+  <!--TABLE TAGS-->
+  <table>
+    <caption>Student Information
+    <thead>
+
+      <tr>
+        <th>NAME</th>
+        <th>ROLL NO.</th>
+        <th>CLASS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>HUSNAIN</th>
+        <th>25001</th>
+        <th>BSCE-2025</th>
+      </tr>
+      <tr>
+        <th>ALI</th>
+        <th>25002</th>
+        <th>BSCE-2025</th>
+      </tr>
+      <tr>
+        <th>UZAIR</th>
+        <th>25003</th>
+        <th>BSCE-2025</th>
+      </tr>
+    </tbody>
+    </caption>
+    <!-- TO MERGE TO CELLS-->
+
+    <tr>
+
+      <th colspan="3">INFORMATION</th>
+    <tr>
+
+      <th>HUSNAIN</th>
+      <th>25001</th>
+      <th>BSCE-2025</th>
+    </tr>
+    <tr>
+      <th>ALI</th>
+      <th>25002</th>
+      <th>BSCE-2025</th>
+    </tr>
+    <tr>
+      <th>UZAIR</th>
+      <th>25003</th>
+      <th>BSCE-2025</th>
+    </tr>
+  </table>
+  <h1>MY NAME IS HUSNAIN MURTAZA</h1>
+  <p> I AM DOING PRACTICE BECAUSE I WANT TO PRACTICE HTML</p>
+  <u><i>
+      <p> I STUDY AT ITU BECAUSE I GOT ADMISSION IN THIS UNI</p>
+    </i></u>
+  <hr>
+  <h2> I AM LEARNING HTML</h2>
+  <h6> I AM LEARNING HTML</h6>
+  <!-- TO MAKE A UN ORDERED LIST -->
+  <ul>
+    <li>HTML</li>
+    <ul>
+      <li>Web pages</li>
+      <li>Web development</li>
+    </ul>
+    <li>CSS</li>
+    <ul>
+      <li>Styling</li>
+      <li>Web design</li>
+    </ul>
+    <li>JAVASCRIPT</li>
+    <ul>
+      <li>Web Buttons</li>
+      <li>Web applications</li>
+    </ul>
+  </ul>
+
+  <!-- TO MAKE A ORDERED LIST -->
+  <ol>
+    <li>HTML</li>
+
+    <li>CSS</li>
+
+    <li>JAVASCRIPT</li>
+  </ol>
+  <p>H<sub>2</sub>O</p>
+  <p>3<sup>2</sup>=9</p>
+
+  <!-- to give space -->
+  <pre>Lorem       ipsum dolor sit, amet consectetur adipisicing elit. Debitis reiciendis vitae, dolorum impedit inventore modi
+    minus ea ad sed incidunt iusto asperiores blanditiis error iste possimus mollitia tempora minima eius!
+  </pre>
+
+  <br>
+<fieldset>
+  <legend>INFORMATION FORM</legend>
+  <form>
+    <input type="tel" placeholder="Enter your phone number"/><br>
+    <input type="url" placeholder="Enter your website URL"/><br>
+    <input type="text" placeholder="Enter your name"><br>
+    <input type="email" placeholder="Enter your email"><br>
+    <input type="password" placeholder="Enter your password"><br>
+    <input type="date"><br>
+    <input type="datetime-local"/>
+    <input type="color"><br>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <label for="maths">
+      <input type="checkbox" value="maths" name="subject" id="101"">MATHS<br>
+    </label>
+    <label for=" Physics">
+      <input type="checkbox" value="Physics" name="subject" id="102">PHYSICS<br>
+    </label>
+    <label for="Chemistry">
+      <input type="checkbox" value="Chemistry" name="subject" id="103">CHEMISTRY<br>
+    </label>
+    <label for="Computer">
+      <input type="checkbox" value="Computer" name="subject" id="104">COMPUTER<br>
+    </label> <BR>
+    <textarea name="feedback" placeholder="Give Feedback" cols="20" rows="5"></textarea>
+    <br>
+    </fieldset>   
+    <hr>
+    <select name="city">
+      <option value="LAHORE">LAHORE</option>
+      <option value="ISLAMABAD">ISLAMABAD</option>
+      <option value="KARACHI">KARACHI</option>
+
+    </select><br>
+
+    <!--ALMOST SAME AS ABOVE SELECT TAG-->
+    <input type="text" list="city"/>
+    <datalist id="city">
+      <option value="LAHORE"></option>
+      <option value="ISLAMABAD"></option>
+      <option value="KARACHI"></option>
+    </datalist>
+    <br>
+    <input type="range" min="50" max="10000"/><br><br>
+
+    <input type="submit" value="Submit">
+    <details>
+    <summary>Click Me</summary>
+    Hidden Information
+</details>
+  </form>
+  <br>
+  <!-- EMBED A PAGE -->
+  <iframe width="300" height="300" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=PuNwip2QG-hPX1EG"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe height="300" width="300" src="https://www.google.com/maps?q=Lahore&output=embed"></iframe>
+  <br>
+
+  <video src="tilawat.mp4" height="300" width="300" controls></video>
+  <br>
+  <!-- ADDING LINK IN HTML IN SAME PAGE -->
+  <a href="https://www.google.com">Visit Google</a>
+  <br>
+  <!-- ADDING LINK IN HTML IN SEPRATE PAGE -->
+  <a href="https://www.google.com" target="_blank">Visit Google in new tab</a>
+  <!-- ADDING LINK IN image -->
+  <br>
+  <hr>
+  <a href="https://www.google.com" target="_blank"><img
+      src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIcA9gMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABgcEBQECAwj/xABIEAABAwMBBAYHBQQHBwUAAAABAAIDBAURBhIhMUEHE1FhcYEUIjKRobHBNUJSc9EjYnLwFSQzQ4KisjR0ksLS4eJTY2SEk//EABsBAQADAQEBAQAAAAAAAAAAAAADBAUGAgEH/8QALxEAAgICAAQEBAYDAQAAAAAAAAECAwQRBRIhMRMyQVFhcdHwIoGRobHBM0JSFP/aAAwDAQACEQMRAD8AvDmuVQFp1jerYR6JcpHxj+6n/asx2b948iFP9M9JtsuUrKW67NBVOOA8uzE8+P3fP3lX8jh1tK2uq+BXryYT6dmWAi6M37xz5ruqBYCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiALh3BcrhwBGCAQeOUBpq7UdtpZTC2oZNONxjjcDjxPL5rV1msH0kTpX29pa3fuqOP+Vba4QRwg9TTwt7xGFUOqauobCWvOBnkqWRZZX69zNy7bqtal3+H1JxaOkGpvVxFDbrGXyDe976oNawdpOzw3jgp3HtYG0AHEbwDkA+KpfoidIP6QlYPWkla0nuA/8lc8AIibtccKxTzOCcmW8fncE5vbPRERSk58968skdkla6HEbpyQKcd3Nv8APNZmgNO9TXRXK5Q9ZUA7UEJ3tiPJx5Fw4jPBWlf7BQ1lU2sfRxSVWAGyvGS3GfZzw4/Fd7NZWxnrHZ7lbnlzlWob7EMaYqTkbykkMkLXOABI5L3XAGMAcMLlVCYIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgOkwzE7wKonWjv6swfuq9Kr/Zpf4T8lRGtT+zYf3VRzf8AX79jL4l3h9+xvOhmPNFUn/5Z/wBLFb/cqp6GGYtzz21Lj8APorWCt1+RGhT/AI0coiL2SHBXKIgC4cMhD3LAvVwZbqJ0xbtPJ2WN7XfyF8bSW2eoRc5KMe7PK93yis0O3VPO2d7Yme076e9QN2rNS6jnkj09AylpWO2TUuxgeLnDee5rchRm7VcuoNRxW90ziJHbU8g4hg3nHyHZkKw7XRulgihpWCKmjaGxxtGA0fzzVaLld13pGnbGnCSjyqU/j2X5GglsWo3ZfUaozIOLQ+XZ9+R8lqqq56jsTh6VVz9Xn1Zo5zJH7jw8wFZzLI3A23b1r7tp0SQSN3OY4Yc08CF9ljRflemeauJ2J6sipR9tIilo6TpoJWRXqBs0J/v4W7L2+LeB8seBVlW2tpbjSx1lDMyanlblj2HIP6eC+fb7aX2mudTYPVu9eMns7D3jgfJZ2hdVS6ZvDY6iQm3VDgJ2E7mE7g8d459o8FBTkTjLksNHN4dTbUr8da9de/0Zf6LpE4Pa17SHBwBBHApK4MYXE4A3q9KSjFyl2RzZ1qJY4IjJK7ZaOajNVqSeeodTWmDrXs9t27DR3ngFqda3uTaZSUzgJZiGN7sr2s9K/qG01LkRMO93N7uZPesei+7iMm4PlrXt3f0LLjGpdVtmS43Z/rT3OKNx+4zaOP57l4Pr7jRnMk3WMzvfG8n3g/ot9HZdw23b14Vtg2mExnJU9vCqZro2n77Z8jkSXdGJT6kmiwZQJ4z2DDvepDbq6nr4utppNofeadxaewhQKelfSyuY7gFiw3Gos1a2qg3t++08HN5hZWPnX4l7oyHtE86YWQ54dC01w7gse31UNdSxVVM7ailblp/nmul2rmW6ifUvG0W7msH3ncguoj+PXL6lBvXc87rdqK1QdfXTiNhG4cXO8AoaddXS6SObpixvniacddM71fDiGg/4iofea59/1LTUFRMXda7M+ycYY3eQOzgQPFWLQRSSQMhpYupp2NDY42DAaO4fz8VfshXjaUlzS/ZFeMpW9U9Ij1Xq3UlC7N1pjSMPBzY2uaPPeM+a8anXlayIOirA5xGSDE3d8FKa+yzyQPD2h7SPWa7gR3qotS2WS0V7oml3o8m+PPLu8v0VrCnRfLklBJ/yQ3xnWuZSeiUx6q1xWU7am3QmaB3suYyIg/VSjSh1XVFtRqG5w08fEUsUMbnn+JwBA8BnxCqbTN5ksd0DZnuFFO8CdvJo/H5c+7Kva221zP2jn7QwMd/eoM5uuXJypL4Iko1Jb2zY1n+x1B7YnfJUTrY7m+Cva4brfUflO+RVE62O8LnszvEqcR80SWdDH2V/9h6tNVd0M/Y7fz3/AEVnu4K5X5UaNXkQkGRuRV/rXUThUiCnlcyKN2Nphxtu5+X/AHRV55ajLSRs08KlZBSlJLfoWEi0MWrLRMNqOaQj8l36LGrNc2GkOKipkac/+i4/RaKx7m9KD/QxvFh7kmdwVfa5uBNROBvbTN2G/wARwT9PcpXYL/QX+B9RbHSyQNds9Y6JzATzAyN6rXWsuXV7fxVEn+oqhmc0Y8rNng8FO5y9kR/o8j9N1JXSn1tmMNB8XZ+iviggbT07WgYOFRHRTI1uqZ4ncJYNr3OH/Ur+j3NAHIBe6P8AGivxBP8A9EtnZdXjIweC7IpikV70lWVk1Eypib60T857juI9+FUFzg6t2OR+K+jtQ04qbPVRHmw/JULqinbHGHjis3LhqxSXqdNwi5yx5Vv0+/qWv0TXl110lTxzO2pqVxgce0N4f5S1SK8TiKIM4YBKrPoPncKe4Nd7JqAR47Iz9FO9QyYnkb+6FU41ZKOBpf7NL7/QyPDTypIruZ7q3VcGd4aXH/KVa9kpmwUzXAYJCqal/Z6ppXngZC0+YIVyUQIp2A8cb1Z4RpYyS++xBk+c91weC5RahXNHf6FskfWtGDzUIu8P7Bys6pZ1kD2doUCvUQbBM08Ad65nj8OWyu1evT6f2X8N7jKJ6dGlyc5lVbpH7on7cY7j/wB/msvXlYGSQwZ3MjMpHaTuHyKiGg6gs1JMGnA6nj37QW06UppIKmlqNjEc0RjJ72nP/Mun4CufkT+JnZ3RSILpR4n1xGJeMkbw3x4/Qq/rdE2KmaBxO8r5roK022+0lw5QzBzv4eDvgSvpW3yMlpYpI3bTXtyD2hX+JVuNu/cgxpJw0ZBUH6SLK2qtL52Nw+JweD54PwJU5Wr1OGmwV23wELj8FVx5uFsZL3JrEnBpnzdeIzEcP78r6B6P659dpS1vmdtSeiR5d2kNAKoHVD/SK8QQM25ZHBjW9pJ4K+dCUoorTBStORBC2PPgAFocUmnJIrYkWls39z+zqn8p3yKonWvtN8Fe10+zKr8l3yVEa1/tB4LmszzRK3EfNEmHQx9jD89/0ViXipNJbaidvtMjOz48B8cKu+hj7GH+8P8AopvrA409U+LP9YVreqt/A18OKnKuL9dFKazq3Mljjachv6IsTVuH1xBcRv5DK5WUjs5ReyaXhkVqEIt9L1bCHFwLnHPDHEquNS3KWd8h4Owcb1dOvadjPRwwYzG8/JUXqDdLMO4ru8WbljKT7+/5n5xakrdeh9GaaeGUMVLTRNigiYGsY0YAx3KtOkDaprzV0zvZeesZ4O4/EOVpabZ/UmnuUU6UbG+sp2VtMzM1OCcDi9p4jx4HyXLZUHZDp3Ok4VkRpyFzdn0Ks0vW/wBF6qt9U52zGJerkP7rt3wJB8l9J07tqJpGOHJfLk7RIPWPEclevRhqMXyxthqH5r6RoZMDxcOT/A/PKixLNrlZc4xjPatj29SZoi4KumCeNdgUc5PKNx+C+e9azBkDAPw4V2axukdusk208CSZpjYDzzxPuVCywS6mvopow/0ZjtqV34W54eJ3hU71z2KKNvh0vAx52y9SwOh6hfBaI5HN2XVD3TEdmTgfBoPmpdqRpbU5P32rvpGhEETSGhrWt2WtHAAdiy9T0plpxIOLeCj4jivIxZVx791+RmV3at536lY3Vj4qptRH7Ubw8eRyrds07Kmgimj9h7Q5vgeCrCsa2bLX8RxUo0Bcw2J9sqHBsjSTD3t7PL6rL4Nk8jdU/UmyobXMiaouBv3rldIUTg8FX+rpBBSzk8MlTyplEMLpHcGjKp3WlyfcawUFHlz3nyHaT3LA4yvGtqoj33st4z5VKTO3RzEZbhU1X3XPEbfLefmp3rWyMu1kNOcB/tRu/C4Dj8/etZoe0tpIIo2AFjBud2nmT4qdSsa+MseMghbmOnRGPL3RVs1Pez5guNNNR1D6asjMco+7xDu8do7/ACVh9GuvKehp22i8ybELDinqcZDR+F3YByPlyUn1JpWGsz10DJmHeNoZx+hUMGiKCOb+zqmYOcMkz8wVryzar48ty/QpqicHuDLfbX0b4hM2rgMRGQ8SN2ceKr/pA1jBLRm12ranklcGuLB7Z5Nb278fLmo/cLhTW6Oop6dpBjOw1zt5yMDeVr9CP9Nv9VNNsunZEOoyN42iQ4gdvDf3r0sWGPHxnt+x58WVj5OxkaX0tNFXtrri1rqzPqR5yIR/1cfDgrisdL6NSjO4kcO5YVmtAja2SQAZG7flb4AAADksyycrJc0i3GKitIxrp9m1X5LvkqI1r/aDwV73X7NqvynfJUTrUZePBZuZ5omZxHzRJd0MfY4/3h/0U/1JA6pslXFH7ZjOx/Fy+KgXQ2MWhn5z/orLqGdZEW5Az2q3BKUEjTok4xjJeh833Z4qXte4A+KLba5tDrTeZXhh9HqHGRhHBrjxauVjyUoScWd/VZG6tWQfRkg6QtZW6qMTbdKXiMODnluAc4xj3KqJmVl1e8UVLPMX5ALGOI96upum7ZGAKO0wNP4nM6x3/E4krNpdPTFwyCB2YXWSzYxgq610XufnSoblzSfUk2mt1CBlZ1dT+kQOZzPBdbXS+iU4YeKzFnlgpTWGiniokqLeBHISS+L7ru8dnmofR11z05cY6uMSUlTHuDnN9Vw7DycO5fR9bQxVbcOG9Ri4aacHEsaHA8iFXnjxk9rozSo4nZXHkmuZfE1Fn6WbdNC1t1pZoJgPWfBh7D9R8fFZNd0p2drTHbIamqnI9QFoaCfi73BdGaepQ7M1poZCOb6dh+YW0pqfqG7FJRw044fsYgz5L7yW/wDX7Hh3Ye9qt/LfT6kBuNLqLVc/pF02qGmPB0jdl2z2MYTnzPxUi0zpyKmEcFHBsRNOXOJyXnmSeJUmhs8s7w6fPmt9R0kdKzZj7F7hVGHzIcjKnfpPol2S7HNJA2niDGjC71EYlicwjivRFIViu9RWWWOYviGCo0Kmeima5/WMe05D2nh4FXFU00dSzZk5qM3DTZLi6JZ+Rw6q6XOuj9yaF8orXdHjaNbQPjayvaS4D+0j5+I5LZT6ttUbMiVzj2YWhbZzGf2lFDIP3o2lbCnhfEP6vSQxfwxBp94X2NGXFcviLXvrqHKp9eU1t5ulyu7NmlhMFMf7yUYb4jm7yWus9hayZ/V5kkcfXlcN7v0Uqba6mrcDM4n5Ld0NvjpWjHtYUmPhwpk5t7k+7Z5na5LXZHFqom0dO1uMOxvWcup3jl5rTX7UNLaGFrztz4yIwcY7yeSuwhKcuWK2yKUlFbZunAEYIB8ViT0dNgvka1o7Sqsq9V6j1HWyUtlcYo2bpHxO6tsf8T+OfA+S7R6K9KIfeb7Uzy82wtB2f8TySfcrTxYQ6Wz0/ZdSFWyl5I/0a/pDigo7g/qHxPZKS7LHglp5gj4+ahtJUzUVZHWUcr4po97XMP8AOfBWBV6Hs7W/sTWPP4pJh9AFErzpqpthdNA2SWn4kH2mDvWnRmUySqb38yrZRNNzRa2htc01+YyjrNinuQb7AOGTd7e/u+amfh2L5e23ZbLE9zHAgtc04LSDnIPI96vHoz1U7UdrfFWOBuFHhsxAx1jT7L/PBB7wVTzsNVfjh2/gnx73P8Mu5tdZXCWgsc/o1NNUTytMbGRRF+Mj2jjkFQ15fcaiUl1FV7zzgd+i+kauN0sJa3iolVaekllc481i2UKyW2xdiq2alJ9iuND6gu2n2yRR2Spq4XSF4YY3tIJ479kq3tNXiuvFOZ6u0y29n3RNJlzv8OMgeOFqqaxT0/s58lv7fTzxuHWZxjmvcK3H16EldTh05uhhX+0RVjmvljY9meD2bQyuVvdx3Ivbin3RYU5romeLKWFnsxjzXsMDcMeS5RfTyEREAQoiA6GNh37Iz3hctaGnIAHgF2RAEREAREQBERAdS0HiAfELgMA4ADwC7ogCIiAwrzWegW2apABe0YYDwLjuCozWtymBdAxxfNKfWLtxc47t/mrb6QJjT2Drh7LJ2F3hvHzIVD32ofPWiobve1wcPEcPktnh9T8GU49yjkSXiJMtXTNodBQw0dKC2OMes7m93Nx7yVMKayRsaDIcnC8NHSQVVqhrKY5jmYC0/TyW/WPLe3surWuhhtt1OBvasG5WOGeJxjGHLdLh3BfD6URrXTf9G1HpMLMRSuIc3kHdo7jvXj0T1j6XWj2g4ZJSvDwOBw5uCrC6V3wQ2aPa2RJJLuHaADk/L3qBdF1C590qLm4Ya4dTH378u+QHiCtaVzlhLm79imoJX9C92kEAjmMrsvOAYiZ/CF6LJLgREQBERAEREAREQBERAEREAREQBERAEREAREQBERAa7UFGy4WqellbtMkbghfPWoLVU2ardDVMLowcRyHgezwPcvpVwyMHgVGdQ6fZVteQxr2ni1wyFbxcueO3rqmQ20qz5lSaO1nWaaeY49ioo3u9ene7AB7WnkVals6QtP1zAZKl9K/8E8ZHxGR8VBK7RFGHktimgP8A7bt3uIPwWMzR0IGPTJ2DvjBVqdmFf+Ke0yGML6+keqLYOqLBjP8ATVB/+7f1Wpu3SLYKCNxiqDVyDg2Fpx/xHcoPBoug22matrXN7GbDfm0rf2zTtmoXh9JbWSTNOWy1BMrge0Z3A+ACrtYce23+xIvHfsiM1sV41vWiuuDXUluG5h4bTeyMHfv5ux+inWlLOynEbIoxHFGAGN7B/PNZ1NbZ6uTbmyG9hUhpadlPEGMUF18rdeiXZEsK1D5nqOxcoihPYREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEKIgMeWjgl9pnmsWS0Up3lvwREAZZ6UHIb8Fkx0UEW9rERAZAAAwOC5REAREQBERAEREB//2Q=="
+      alt="Google Logo" height="100" width="200"></a>
+  <script src="script.js"></script>
+  <h4 id="bottom">THIS IS BOTTOM OF PAGE</h4>
+  <a href="#top">GO TO TOP </a>
+  <footer>
+    <H5>CONTACT ME AT <a href="mailto:murtazahusnain06@gmail.com">murtazahusnain06@gmail.com</a></H5>
+  </footer>
+  <BR>
+    <!-- ADDING VIDEO IN HTML WITH SUBTITLES -->
+<video width="320" height="240" controls>
+  <source src="vo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  <track src="eng_subtitles.vtt"
+       kind="subtitles"
+       srclang="en"
+       label="English"
+       default>
+</video><BR>
+  <table>
+
+  <tr>
+
+    <th>Header cell 1</th>
+
+    <th>Header cell 2</th>
+
+  </tr>
+
+  <tr>
+
+    <td>First row first cell</td>
+
+    <td>First row second cell</td>
+
+  </tr>
+
+  <tr>
+
+    <td>Second row first cell</td>
+
+    <td>Second row second cell</td>
+
+  </tr>
+
+</table>
+<figure>
+  <img src="HU.png" alt="ITU LOGO" height="100" width="200" />
+  <figcaption><h6>THIS IS ITU LOGO</h6></figcaption>
+</figure>
+<audio controls>
+  <source src="peace.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.</audio>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid hsl(0, 67%, 17%);">
+  Your browser does not support the HTML canvas tag.</canvas>  
+<script>
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  ctx.fillStyle = "#FF0000";
+  ctx.fillRect(0, 0, 1500, 600);</script>  
+
+<!-- EMBED A PAGE LIKE IFRAME -->
+<embed src="https://www.youtube.com/embed/HcOc7P5BMi4?si=PuNwip2QG-hPX1EG" width="300" height="300"></embed>
+
+
+
+</body>
+
+</html>
